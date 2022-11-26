@@ -33,16 +33,16 @@ We do not add each and every real time data (e.g transactions) to dataware house
 
 ## ETL
 
-The process of extraction of operational data into your DWH is called **ETL**
+The process of extraction of operational data , Transforming it, loadding into your DWH is called **ETL**.
+The ETL can be stored in any RDMS as a DWH
 
 **What is operational database system?**<br/>
 operational database systems are oriented toward real-time, transactional operations.**
 
 - Operational data is extracted,transformed and loaded to DWH.
 - then it can be used by End Users for visualiztion with help of **OLAP (Online Analytical processing).**
-- Later visualiztion can be done using PowerBI, Tablue, etc.
-- 
-- 
+- Later the data can be used for visualiztion using PowerBI, Tablue, etc.
+
 
 
 
