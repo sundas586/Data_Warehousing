@@ -25,27 +25,33 @@ Any good company plans a idea (lets see from last years Eid sale, which kind of 
 - DWH technique makes visualization easy.
  
 - Data lakes accept unstructured data
-- Data warehouses only accept structured data from multiple sources.
+- **Data warehouses only accept structured data from multiple sources and Make them all related together as one**.
 - Databases perform best when there's a single source of structured data and have limitations at scale.
 - 
 ![1](https://user-images.githubusercontent.com/33677647/204098919-abfaeaed-1c12-4ee7-82b0-a79ccd702434.JPG)
 
 End User --> BI analysts <br/>
-We do not add each and every real time data (e.g transactions) to dataware house. because we dont want our anaalysis to be affected.
 
 ## ETL
 
 The process of extraction of operational data , Transforming it, loadding into your DWH is called **ETL**.
-The ETL can be stored in any RDMS as a DWH
+The ETL can be stored in any RDMS as a DWH, where all data can be inter-linked using shcema
 
-**What is operational database system?**<br/>
-operational database systems are oriented toward real-time, transactional operations.**
+**What is operational database system ?**<br/>
+operational database systems are oriented towards real-time, transactional operations, it is collection of data of multiple sources. It is updated each second.<br/>
+We do not add each and every real time data (e.g transactions) to dataware house. because we dont want our anaalysis to be affected <br/>
+BUT!!!<br/>
+When ever operational data is needed to be used for BI analysis, it has to go through DWH first.
+
 
 - Operational data is extracted,transformed and loaded to DWH.
 - then it can be used by End Users for visualiztion with help of **OLAP (Online Analytical processing).**
 - Later the data can be used for visualiztion using PowerBI, Tablue, etc.
 
 The data once stored in DWH is always available to endusers,it can be modified but not deleted, it acts as a backup record for data analysis, they can even access 10 years old data using OLAP.
+
+![1](https://user-images.githubusercontent.com/33677647/204101053-d9a19933-096e-484e-95f1-9c5d38386462.JPG)
+
 
 
 
