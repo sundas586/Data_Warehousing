@@ -28,8 +28,23 @@ Any good company plans a idea (lets see from last years Eid sale, which kind of 
 - 
 ![1](https://user-images.githubusercontent.com/33677647/204098919-abfaeaed-1c12-4ee7-82b0-a79ccd702434.JPG)
 
-End User --> BI analysts
+End User --> BI analysts <br/>
 We do not add each and every real time data (e.g transactions) to dataware house. because we dont want our anaalysis to be affected.
+
+## ETL
+
+The process of extraction of operational data into your DWH is called **ETL**
+
+**What is operational database system?**<br/>
+operational database systems are oriented toward real-time, transactional operations.**
+
+- Operational data is extracted,transformed and loaded to DWH.
+- then it can be used by End Users for visualiztion with help of **OLAP (Online Analytical processing).**
+- Later visualiztion can be done using PowerBI, Tablue, etc.
+- 
+- 
+
+
 
 
 
