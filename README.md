@@ -1,5 +1,7 @@
 # Data_Warehousing
 
+The data warehouse is a system which is used for analysis and reporting of data collected from operational systems and different data sources.
+
 ![a](https://user-images.githubusercontent.com/33677647/204094016-512b470a-5f76-4e55-b9cb-7d2c43b47ad5.JPG)
 ![b](https://user-images.githubusercontent.com/33677647/204094020-7ebaee07-2378-4047-975a-d00870394b07.JPG)
 ![c](https://user-images.githubusercontent.com/33677647/204094022-f30a6a5c-56c4-4841-80eb-eef04900c7f6.JPG)
@@ -42,6 +44,8 @@ operational database systems are oriented toward real-time, transactional operat
 - Operational data is extracted,transformed and loaded to DWH.
 - then it can be used by End Users for visualiztion with help of **OLAP (Online Analytical processing).**
 - Later the data can be used for visualiztion using PowerBI, Tablue, etc.
+
+The data once stored in DWH is always available to endusers,it can be modified but not deleted, it acts as a backup record for data analysis, they can even access 10 years old data using OLAP.
 
 
 
