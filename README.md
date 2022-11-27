@@ -70,6 +70,19 @@ But the real DWH keeps the data of all these DM(small DWH).<br/>
 ![88](https://user-images.githubusercontent.com/33677647/204112506-638e40f7-dd99-48f8-83c5-821ae5ef72b4.png)
 ![4](https://user-images.githubusercontent.com/33677647/204112512-e08fe9f2-b108-4f8e-96b5-6387030a297c.JPG)
 
+![1](https://user-images.githubusercontent.com/33677647/204113420-01b00d4a-e5f3-4396-b879-607f802ed815.JPG)
+
+Meta Data is data about data,
+means if we have any data, where it is actually stored, whats its type, formate, etc.<br/>
+we define where the source/ path of each data file is<br/>
+as DWH is not real time database, so it has to updated manually each day, it will be difficult to check each time that from where we have to get the file of new data and what is the target path to load the file,
+so meta data storess the location of each data file and the location of where it has to be loaded, so it save time in extracting and loading of data in DWH.
+
+- meta table defines which table is source and which table is target
+- and how to tranform the data 
+
+
+
 
 
 
