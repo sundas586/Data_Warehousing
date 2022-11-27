@@ -78,8 +78,16 @@ we define where the source/ path of each data file is<br/>
 as DWH is not real time database, so it has to updated manually each day, it will be difficult to check each time that from where we have to get the file of new data and what is the target path to load the file,
 so meta data storess the location of each data file and the location of where it has to be loaded, so it save time in extracting and loading of data in DWH.
 
-- meta table defines which table is source and which table is target
-- and how to tranform the data 
+- meta table defines which table is source and which table is target<br/>
+- and how to tranform the data (how ww have to convert source data into desired transformed data).
+
+![1](https://user-images.githubusercontent.com/33677647/204114181-98c1f557-921a-4177-8686-7e3932a27047.JPG)
+
+- Data coming from various source like any RDBMS , xml, flat file, .txt, .csv, .xml, etc.<br/>
+- Now ELT will be performed on that data, Then It will go to staging area.
+- Staging area is a temporary storage area, we use before complete transformation and load to DWH, this staging is present in tools like informatica or Talend.
+
+![1](https://user-images.githubusercontent.com/33677647/204114304-f72a6cf7-da62-4fc1-a10b-0eba512972e4.JPG)
 
 
 
