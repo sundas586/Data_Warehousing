@@ -89,8 +89,40 @@ so meta data storess the location of each data file and the location of where it
 
 ![1](https://user-images.githubusercontent.com/33677647/204114304-f72a6cf7-da62-4fc1-a10b-0eba512972e4.JPG)
 
+![1](https://user-images.githubusercontent.com/33677647/208683950-3eade0fa-99fd-470f-bb9d-d7770e5cf252.png)
 
+## Data Migration
+is a process of moving application data from old systems to new ones. It typically requires transferring data between Storage types or formats. Automated migration frees up human resources from tedious, error-prone tasks.
 
+![2](https://user-images.githubusercontent.com/33677647/208684452-4f98753b-05b1-4e72-bc2a-318ec4c1b302.png)
+
+## Data WareHousing
+
+Data integration is often implemented in Data Warehouses through specialized software that host large data repositories from internal and external resources. Data is extracted, amalgamated, and presented in a unified form.
+
+a **data mart** that stores combined data from marketing, sales, and operations. 
+
+![1](https://user-images.githubusercontent.com/33677647/208685690-3375005d-b90f-413e-86c7-4d3474315c50.png)
+
+## Data consolidation
+Is usually associated with moving data from remote locations to a centralized location or combining data due to an acquisition or merger of two or more companies. In this example, two companies merge. Imagine the sales team in each company use different tools. The two sales teams, might crossover into each other's accounts, not realizing that a candidate is already a customer. The goal is to have a unified sales tool and single source of truth for the new unified company so that the sales teams don't get conflicting or overlapping data.
+
+![3](https://user-images.githubusercontent.com/33677647/208685704-5c794a84-5b8d-49f0-a2de-ac9109920631.png)
+
+## Data synchronization 
+is a process of ensuring that two or more locations contain the same up-to-date data. Adding, changing, or deleting a file from one location will mirror the action at the new location. 
+
+![1](https://user-images.githubusercontent.com/33677647/208687841-ba9d6627-6c84-48d7-9503-0bce59c17bf4.png)
+
+ ## Change data capture
+ 
+ Data Warehousing involves the extraction and transportation of data from one or more databases into a target system or systems for analysis. This involves the extraction and transportation of huge volumes of data and is very expensive in both resources and time. The ability to capture only the changed source data and to move it from a source to a target system in real-time is known as change data capture, often abbreviated CDC. Capturing changes reduces traffic across a network and thus helps reduce ETL time. The CDC feature introduced Intel and data integration simplifies the process of identifying the change data since the last extraction, CDC and talent quickly identifies and captures data that had been added to update it in or removed from the database tables and makes this change data available for future by applications are individuals
+
+![2](https://user-images.githubusercontent.com/33677647/208687870-253e272b-6f33-4b12-96ec-6d9d49d5c112.png)
+
+ data integration simplifies the process of identifying the change data since the last extraction, CDC and talent quickly identifies and captures data that had been added to update it in or removed from the database tables and makes this change data available for future by applications are individuals. 
+
+![3](https://user-images.githubusercontent.com/33677647/208688585-5eb1e944-736e-4703-97d5-be1964c26816.png)
 
 
 
