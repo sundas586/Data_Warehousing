@@ -124,6 +124,18 @@ is a process of ensuring that two or more locations contain the same up-to-date 
 
 ![3](https://user-images.githubusercontent.com/33677647/208688585-5eb1e944-736e-4703-97d5-be1964c26816.png)
 
+![0](https://user-images.githubusercontent.com/33677647/208690292-f6d0d864-e951-407c-9174-4bc25f0ef466.png)
+![01](https://user-images.githubusercontent.com/33677647/208690395-d0030554-f1e1-433b-8eda-7dfc6a5496be.png)
+![1](https://user-images.githubusercontent.com/33677647/208690323-6d7e43c7-6197-4977-b6f8-7a57658e1e14.png)
+![2](https://user-images.githubusercontent.com/33677647/208690332-499bdb96-1963-4284-9a8a-17c52535e262.png)
+![3](https://user-images.githubusercontent.com/33677647/208690429-10adbb9d-2375-418d-a207-07417fc13055.png)
+![4](https://user-images.githubusercontent.com/33677647/208690452-b26fb6ac-42ad-438f-aa45-658d0716a071.png)
+
+you can use data quality components in a data integration job to duplicate data. Here, the same customer appears in three sources with different spelling. The first step is to identify duplicates using data matching components. They give you plenty of options to fine-tune the duplicate detection and their survivorship rules. Data can then be repaired, improving the quality of data in the company,
+
+![5](https://user-images.githubusercontent.com/33677647/208690624-53afc275-51c2-49f2-a53f-afd8cf693d29.png)
+
+
 
 
 
