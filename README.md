@@ -191,3 +191,14 @@ A star schema contains both, the dimension tables and the fact tables in it. Whe
 ![3](https://user-images.githubusercontent.com/33677647/209850903-b51fe65c-e627-4474-8d98-fbbc504c30be.png)
 <img width="560" alt="5" src="https://user-images.githubusercontent.com/33677647/209850918-3e5ea128-1406-4ec5-9d1c-289965f8390b.png">
 
+
+
+## Granularity & cardinality
+
+ In a data warehouse, data granularity is the level of detail in a model or decision making process.
+ 
+ What is Data Granularity? Data granularity is a measure of the level of detail in a data structure. In time-series data, for example, the granularity of measurement might be based on intervals of years, months, weeks, days, or hours.
+ 
+ - If data performs good if stored daily then granularity level should be Day level.
+ - If data performs good if stored weekly then granularity level should be Week level.
+ - similarly it also includes about how much data is needed for fact table.
