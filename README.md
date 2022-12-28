@@ -159,4 +159,10 @@ The end result of dementional modeling is we end up building a star schema or sn
 
 ![DM](https://user-images.githubusercontent.com/33677647/209848666-e8737c1d-05f9-46b7-9d4b-c3da793004a8.png)
 
+![0000](https://user-images.githubusercontent.com/33677647/209849080-b167ea7a-e05d-448b-ac86-479466e3570e.png)
 
+Above are the steps to build a dimensional model
+
+## STAR SCHEMA
+
+A star schema contains both, the dimension tables and the fact tables in it. Whereas A snowflake schema contains all, the three- dimension tables, the fact tables, and the sub-dimension tables. It is a top-down model type. It is a bottom-up model type.
