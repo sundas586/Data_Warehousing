@@ -70,6 +70,24 @@ But the real DWH keeps the data of all these DM(small DWH).<br/>
 ![88](https://user-images.githubusercontent.com/33677647/204112506-638e40f7-dd99-48f8-83c5-821ae5ef72b4.png)
 ![4](https://user-images.githubusercontent.com/33677647/204112512-e08fe9f2-b108-4f8e-96b5-6387030a297c.JPG)
 
+## GRANULARITY & CARDINALITY
+
+It tells the level of how detailed your data is.
+
+What is granularity in data warehouse?
+What is Data Granularity? Data granularity is a measure of the level of detail in a data structure. In time-series data, for example, the granularity of measurement might be based on intervals of years, months, weeks, days, or hours.
+
+- If data is performing good if stored hourly than the granularity level should be hour level.
+- If data is performing good if stored daily than the granularity level should be day level.
+- If data is performing good if stored weekly than the granularity level should be Week level.
+- If data is performing good if stored monthly than the granularity level should be Month level.
+
+
+
+
+
+
+
 ![1](https://user-images.githubusercontent.com/33677647/204113420-01b00d4a-e5f3-4396-b879-607f802ed815.JPG)
 
 Meta Data is data about data,
