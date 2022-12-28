@@ -166,3 +166,10 @@ Above are the steps to build a dimensional model
 ## STAR SCHEMA
 
 A star schema contains both, the dimension tables and the fact tables in it. Whereas A snowflake schema contains all, the three- dimension tables, the fact tables, and the sub-dimension tables. It is a top-down model type. It is a bottom-up model type.
+
+![6](https://user-images.githubusercontent.com/33677647/209850842-971c5232-eeaa-4d13-9c2b-9cf727449eb1.jpg)
+![2](https://user-images.githubusercontent.com/33677647/209850889-ddd230a4-e039-4577-a92b-9657d9895fee.jpg)
+![1](https://user-images.githubusercontent.com/33677647/209850862-08f84fe4-7fd1-429b-ace6-e0387db297cd.jpg)
+![3](https://user-images.githubusercontent.com/33677647/209850903-b51fe65c-e627-4474-8d98-fbbc504c30be.png)
+<img width="560" alt="5" src="https://user-images.githubusercontent.com/33677647/209850918-3e5ea128-1406-4ec5-9d1c-289965f8390b.png">
+
