@@ -82,12 +82,6 @@ What is Data Granularity? Data granularity is a measure of the level of detail i
 - If data is performing good if stored weekly than the granularity level should be Week level.
 - If data is performing good if stored monthly than the granularity level should be Month level.
 
-
-
-
-
-
-
 ![1](https://user-images.githubusercontent.com/33677647/204113420-01b00d4a-e5f3-4396-b879-607f802ed815.JPG)
 
 Meta Data is data about data,
@@ -255,6 +249,7 @@ Below are some of advantages of using surrogate keys in data warehouse:
 - Surrogate keys are very helpful for ETL transformations.
 - Data warehouse Surrogate keys are usually small integer numbers that makes smaller index and better performance
 - Surrogate keys are required if you are implementing slowly changing dimension (SCD)
+
 
 
 
