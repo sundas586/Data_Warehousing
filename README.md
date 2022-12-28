@@ -185,11 +185,13 @@ Above are the steps to build a dimensional model
 
 A star schema contains both, the dimension tables and the fact tables in it. Whereas A snowflake schema contains all, the three- dimension tables, the fact tables, and the sub-dimension tables. It is a top-down model type. It is a bottom-up model type.
 
+![1](https://user-images.githubusercontent.com/33677647/209855091-25b84ae7-bbad-447a-a673-2daeddb71c57.png)
 ![6](https://user-images.githubusercontent.com/33677647/209850842-971c5232-eeaa-4d13-9c2b-9cf727449eb1.jpg)
 ![2](https://user-images.githubusercontent.com/33677647/209850889-ddd230a4-e039-4577-a92b-9657d9895fee.jpg)
 ![1](https://user-images.githubusercontent.com/33677647/209850862-08f84fe4-7fd1-429b-ace6-e0387db297cd.jpg)
 ![3](https://user-images.githubusercontent.com/33677647/209850903-b51fe65c-e627-4474-8d98-fbbc504c30be.png)
 <img width="560" alt="5" src="https://user-images.githubusercontent.com/33677647/209850918-3e5ea128-1406-4ec5-9d1c-289965f8390b.png">
+![2](https://user-images.githubusercontent.com/33677647/209855105-9d5a3831-3160-44a5-b1f2-0dfac3c79359.png)
 
 
 
@@ -202,3 +204,23 @@ A star schema contains both, the dimension tables and the fact tables in it. Whe
  - If data performs good if stored daily then granularity level should be Day level.
  - If data performs good if stored weekly then granularity level should be Week level.
  - similarly it also includes about how much data is needed for fact table.
+ - The bigger the data the bigger the fact table the higher the granularity level.
+
+
+## SCD (Slowly changing dimension)
+
+What is a Slowly Changing Dimension? A Slowly Changing Dimension (SCD) is a dimension that stores and manages both current and historical data over time in a data warehouse. It is considered and implemented as one of the most critical ETL tasks in tracking the history of dimension records.<br/>
+
+Soppose if the customer Ali lived at address A in 2022, then he moved to address B in 2023, So this kind of history preservation is called SCD.<br/>
+There are 6 types of SCD but 3 are most common.
+
+![1](https://user-images.githubusercontent.com/33677647/209855250-d469ad2a-168c-48f5-8f2c-0389d939cf6d.png)
+
+What are the 3 types of SCD?
+Introduction to Slowly Changing Dimensions (SCD)
+Type 1 – This model involves overwriting the old current value with the new current value. ...
+Type 2 – The current and the historical records are kept and maintained in the same file or table.
+Type 3 – The current data and historical data are kept in the same record.
+
+
+
