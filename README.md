@@ -135,12 +135,28 @@ you can use data quality components in a data integration job to duplicate data.
 
 ![5](https://user-images.githubusercontent.com/33677647/208690624-53afc275-51c2-49f2-a53f-afd8cf693d29.png)
 
+## Staging area
 
+It is usually one day older than current data.
 
+![0000](https://user-images.githubusercontent.com/33677647/209848505-2c11eb0b-bcdb-4a5b-a90f-d50cd3225188.png)
 
+The Data Staging Area is a temporary storage area for data copied from Source Systems. In a Data Warehousing Architecture, a Data Staging Area is mostly necessary for time considerations. In other words, before data can be incorporated into the Data Warehouse, all essential data must be readily available.\
 
+ it, produces integrated, cleaned data, and stages it for loading into data warehouses, data marts, or Operational Data Stores. A data staging tool is accessible, and the data is in a database.
+ 
+ To keep the workload for the source system (where all the raw data is present/ operational system ) to a minimum. As if we put data directly to DWH and if we feel that we needed different data style then we will again put load on source, so intead we load data to Staging area, design it a/c to our need and the give it to DWH, so not to put load on Source Sys. again and again.
 
+## ODS (operational data store)
 
+![00](https://user-images.githubusercontent.com/33677647/209848495-2e373315-5ba3-48c2-afab-f2db23cdb282.png)
+![1](https://user-images.githubusercontent.com/33677647/209848580-2bc32c87-6434-4579-8820-9fb9bb51e659.png)
 
+## DIMENTIONAL MODELING
+
+the design methdologies followed to build dataware house is called Dimensional modeling.<br/>
+The end result of dementional modeling is we end up building a star schema or snowflacs schema.
+
+![DM](https://user-images.githubusercontent.com/33677647/209848666-e8737c1d-05f9-46b7-9d4b-c3da793004a8.png)
 
 
