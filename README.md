@@ -250,6 +250,57 @@ Below are some of advantages of using surrogate keys in data warehouse:
 - Data warehouse Surrogate keys are usually small integer numbers that makes smaller index and better performance
 - Surrogate keys are required if you are implementing slowly changing dimension (SCD)
 
+1
+
+- (Real story) Once a bank used to make reports, but they had no dataware house, so they used to get data for it from their transactional system (OLTP), so due to load on transactional system, it crashed and blocked all its ATMs ( the end).
+- DWH is used for reporting. Collects data from differenrt departments and centralize it (avoiding duplications coming from diffeneret departments, coming same data)
+ for reportung
+## Steps to be considered when building or enhancing a dataware house or you want to add a new department :
+
+2
+
+- we use star schema dimentional model because we want the ETL to be as easy as possible, we perform queries ans SSAS easily.
+
+## Scenario -- A company named bluster block which retals to VFS movies--- we'll use star schema for the purpose.
+
+** STEP_1 : IDENTIFY BUSSINESS PROCESS :
+
+Decide what bussiness process we want to model :
+
+1_ **IMPACT** : We have to consider the impact of creating this dataware house on BI department, how its going to help them on daily bases
+2_ **Risk** : The risk associated with building a DWH is that how we going to get the data? is it going to be very difficult? will the model be very complex? will data be very dirty?
+
+4
+
+- Now we have to identify the grain of the fact table.
+- The most important decision to design a fact table is to identify, what is its grain.
+- It is the center of our star schema.
+- Facts are the measurement of success or failure in bussiness
+- A table that contains all the facts about the bussiness, how successful it is, how many sales do we have ? etc
+
+We must keep fact table to grain level, means if we have employee_id, employee_salary in a fact table, the ww should keep data to grain level means do not put average salaray of customer as a column so that when someone comes and as the monthly salary of employye then you cannot de-aggregate it, so keep it to grain level.
+As we cant predict, what queries users are going to run so we just keep our table at grain level (no aggregated  data, raw values).
+So that they can query any thing they want.
+
+Plus!!!
+
+If you design your DWH fact table at monthly level, then later on you want it to be on daily level, it will not be possible because their will be no past data on daily level, and even if its possible, then we will have to reset all our dimensions as well.
+So that they can query any thing they want.
+
+As we cant predict, what queries users are going to run so we just keep our table at grain level (daily data).
+
+
+5,6,7,8
+
+Dimentional tables are the descriotion of fact table
+
+9
+
+
+
+
+
+
 
 
 
