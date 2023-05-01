@@ -1,5 +1,11 @@
 # Data_Warehousing
 
+## fact table vs Dimention table :
+
+- The fact table is where other than id's , you store factual data/ numeric data, by factual data it means that the values that keeps changing, like how many sales today for this product, or how many transactions in a day at this ATM, so this type of data is transactional and the values keeps changing each day for each BK.
+- The dimenson table on the other hand stores descriptive data, that is the name of the product or the name of the Bank of this ATM, its address or branch number, now this descriptive data will remain same for each BK and will not change frequently, so this less frequently changing data we save in dimension table and join kdimention and fact table when need to know some info.
+
+
 The data warehouse is a system which is used for analysis and reporting of data collected from operational systems and different data sources.
 
 ![a](https://user-images.githubusercontent.com/33677647/204094016-512b470a-5f76-4e55-b9cb-7d2c43b47ad5.JPG)
