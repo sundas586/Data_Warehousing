@@ -302,6 +302,15 @@ Dimentional tables are the descriotion of fact table
 
 9
 
+# Staging area
+
+it is a area where data is fetch and put from source application. first we get the data from source app and put here (LAnding zone), then we transform the data and put in final table of edw that is accessible by all other BI developers.
+
+is this is the 'E' area for ETL.
+
+in DWH we donot fetch the source data and directly put in final EDW table . intead we take the data put it in staging area, then do transformation and the put it in final EDW table that is accessible by BI dev.
+
+
 
 
 
