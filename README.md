@@ -311,10 +311,15 @@ is this is the 'E' area for ETL.
 in DWH we donot fetch the source data and directly put in final EDW table . intead we take the data put it in staging area, then do transformation and the put it in final EDW table that is accessible by BI dev.
 
 ![Untitled](https://github.com/sundas586/Data_Warehousing/assets/33677647/a47b93e4-bc4a-42f8-b7d6-c030f6360fad)
-
 ![staging-area](https://github.com/sundas586/Data_Warehousing/assets/33677647/a08631f7-6184-4734-9fe3-3d1841e862d6)
 
+# Persistent vs non-persistent staging layer :
 
+There are two types of staging layer:
+
+- Non-persistant staging layer : is the layer that takes data from source the put it in EDW , after putting data in EDW, it trubcates all the data from stage layer, each time aftert lading and inserting the data from source to EDW (stage = Truncate/ Insert)
+
+- persistent staging layer : it is the stage layer that is not truncate insert, it keeps all the data of history (stage : default/ insert)
 
 
 
