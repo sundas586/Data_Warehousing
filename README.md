@@ -310,8 +310,7 @@ is this is the 'E' area for ETL.
 
 in DWH we donot fetch the source data and directly put in final EDW table . intead we take the data put it in staging area, then do transformation and the put it in final EDW table that is accessible by BI dev.
 
-
-
+![Untitled](https://github.com/sundas586/Data_Warehousing/assets/33677647/a47b93e4-bc4a-42f8-b7d6-c030f6360fad)
 
 
 
