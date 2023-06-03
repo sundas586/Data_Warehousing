@@ -312,7 +312,7 @@ in DWH we donot fetch the source data and directly put in final EDW table . inte
 
 ![Untitled](https://github.com/sundas586/Data_Warehousing/assets/33677647/a47b93e4-bc4a-42f8-b7d6-c030f6360fad)
 
-
+![staging-area](https://github.com/sundas586/Data_Warehousing/assets/33677647/a08631f7-6184-4734-9fe3-3d1841e862d6)
 
 
 
