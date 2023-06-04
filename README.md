@@ -229,6 +229,10 @@ Type 3 – The current data and historical data are kept in the same record.
 ![2](https://user-images.githubusercontent.com/33677647/209855741-775c950f-4266-4ce4-aab2-46dd59ffc093.png)
 ![3](https://user-images.githubusercontent.com/33677647/209855747-1e3ad948-5da9-496e-8146-ade9b5426e76.png)
 
+## Natural key :
+
+A natural key can not be auto created, they are like a encripted unique key e.g = idAsec1, idBsec1, idCsec2, dptIT, dptFin , etc and they come from any source of application, and can not be autocreated (so i think that the ids that come from application data for each record can be called natural keys because they come from source , although they are int and not varchsr like dpt1,... but still we get them from source)
+
 ## Surrogate Key
 
 What is the difference between surrogate key and primary key?
