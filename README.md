@@ -339,6 +339,10 @@ As our data will be coming from both of these tables to a table in DWH 'Table_AB
 
 If a row is present in both Table_A & Table_B, the we take it only once in table_C to avoid duplication.
 
+# Data Value unification
+
+The values in DWH shoukd re2flect same as production data values
+
 
 
 
