@@ -335,6 +335,10 @@ Suppose we have our data coming from two different table sources :
 As our data will be coming from both of these tables to a table in DWH 'Table_AB' so to not loose any characters of any table A/B, we will set the lenght of table_AB always the higher one like :
 - Table_AB ( Name varchar(25)  Class Varchar(35) Section(20) )
 
+# Duplication
+
+If a row is present in both Table_A & Table_B, the we take it only once in table_C to avoid duplication.
+
 
 
 
