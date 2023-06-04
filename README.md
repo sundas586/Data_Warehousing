@@ -321,6 +321,12 @@ There are two types of staging layer:
 
 - persistent staging layer : it is the stage layer that is not truncate insert, it keeps all the data of history (stage : default/ insert)
 
+# Incremental Data warehouse
+- It is a type of dataware house that keeps adding the new changes in transactional database and also tracks that which record is deleted from prod. but only soft deletes to maintain the history.
+
+-The other type of dataware house (which is not incremental) that in which all the data all history is loaded all at once and trhen no n ew data is loaded again otherwise it will crash.
+_ There is one more type of dataware house in which we keep history only for last three months and after every three months we delete the old data
+
 
 
 
