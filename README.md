@@ -304,7 +304,7 @@ Dimentional tables are the descriotion of fact table
 
 # Staging area
 
-it is a area where data is fetch and put from source application. first we get the data from source app and put here (LAnding zone), then we transform the data and put in final table of edw that is accessible by all other BI developers.
+In staging area we bring data in raw form. it is a area where data is fetch and put from source application. first we get the data from source app and put here (LAnding zone), then we transform the data and put in final table of edw that is accessible by all other BI developers.
 
 is this is the 'E' area for ETL.
 
@@ -326,6 +326,17 @@ There are two types of staging layer:
 
 -The other type of dataware house (which is not incremental) that in which all the data all history is loaded all at once and trhen no n ew data is loaded again otherwise it will crash.
 _ There is one more type of dataware house in which we keep history only for last three months and after every three months we delete the old data
+
+# Data types & unification in DWH :
+
+Suppose we have our data coming from two different table sources : 
+- Table_A ( Name varchar(25)  Class Varchar(30) Section(5) )
+- Table_B ( Name varchar(20)  Class Varchar(35) Section(20) )
+As our data will be coming from both of these tables to a table in DWH 'Table_AB' so to not loose any characters of any table A/B, we will set the lenght of table_AB always the higher one like :
+- Table_AB ( Name varchar(25)  Class Varchar(35) Section(20) )
+
+
+
 
 
 
