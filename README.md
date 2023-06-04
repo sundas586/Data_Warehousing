@@ -183,6 +183,8 @@ Above are the steps to build a dimensional model
 
 ## STAR SCHEMA
 
+- In star schema, for PRODUCT, we keep all the info related to product like product-family, product-category, all in one dimension table.
+- In star schema, for PRODUCT, we keep all the info related to product like product-family, product-category, all in different dimension tables, to normalize things better.
 A star schema contains both, the dimension tables and the fact tables in it. Whereas A snowflake schema contains all, the three- dimension tables, the fact tables, and the sub-dimension tables. It is a top-down model type. It is a bottom-up model type.
 
 ![1](https://user-images.githubusercontent.com/33677647/209855091-25b84ae7-bbad-447a-a673-2daeddb71c57.png)
