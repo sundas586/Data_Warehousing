@@ -65,6 +65,11 @@ The data once stored in DWH is always available to endusers,it can be modified b
 ![3](https://user-images.githubusercontent.com/33677647/204112370-605f7f07-51b8-4c21-953a-65ddf4f56b15.jpg)
 ![4](https://user-images.githubusercontent.com/33677647/204112348-3d82171f-710d-4f46-bd52-e10f62496080.JPG)
 
+## Dependent vs Independent DataMart :
+
+- In dependant data mart data is loaded from a DWH and its architecture is straightforward.
+- In Independent datamart, the data is loaded directly from various sources of Application data, and there fore its architecture is called **Spaghetti**
+
 A data mart is a subset of a data warehouse focused on a particular line of business, department, or subject area. Data marts make specific data available to a defined group of users, which allows those users to quickly access critical insights without wasting time searching through an entire data warehouse.<br/>
 Data marts are like sub-DWH(childs)<br/>
 As to keep the data of one dpt. private from other dpt, also it takes less storage.<br/>
