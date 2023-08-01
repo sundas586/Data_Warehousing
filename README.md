@@ -357,6 +357,22 @@ The values in DWH should reflect same as production data values
 
 # Dimensional Modeling
 
+```diff
++ in DWH, we keep the primary keys as a surrogate key, rather than natural keys as a primary key.
++ Eventhough if we have natural key in the dimention table coming from source table but still the PK of this dimentional table will be a surrogate key
++ in is a good practice to put "dim_" in the name of dimentional table.
++ In DWH , a dimention should be able to provide as mush as information as it can. (One Stop Shopping)
+```
+
+### Hierarchical vs Flat Dimension :
+
+```diff
+@@ Star vs Snowflakes schema becomes very important when it comes to Hierarchical vs Flat Dimension @@
+```
+
+
+
+
 
 
 
