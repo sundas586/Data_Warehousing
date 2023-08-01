@@ -353,7 +353,11 @@ If a row is present in both Table_A & Table_B, the we take it only once in table
 
 # Data Value unification
 
-The values in DWH shoukd re2flect same as production data values
+The values in DWH should reflect same as production data values
+
+# Dimensional Modeling
+
+
 
 
 
