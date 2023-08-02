@@ -359,7 +359,7 @@ The values in DWH should reflect same as production data values
 
 ```diff
 + in DWH, we keep the primary keys as a surrogate key, rather than natural keys as a primary key.
-+ Eventhough if we have natural key in the dimention table coming from source table but still the PK of this dimentional table will be a surrogate key
++ Even though we have natural key in the dimention table coming from source table but still the PK of this dimentional table will be a surrogate key
 + in is a good practice to put "dim_" in the name of dimentional table.
 + In DWH , a dimention should be able to provide as mush as information as it can. (One Stop Shopping)
 ```
@@ -391,7 +391,7 @@ An accumulating snapshot fact table is designed to track the progress or milesto
 A factless fact table contains no measures or quantitative data but instead captures the occurrences of specific events or relationships between dimensions. It is used to represent events with no numerical value but is essential for analysis, like recording when a customer browses a website or when a product is added to a shopping cart. Factless fact tables are particularly useful for tracking business processes and their associations.
 
 - It does record the occurrence of a transaction, but not a figure/number but like eligibility of something (e.g ok this product has been added to car)
-- Or no measures but only FK of different dimensions is factless fact table
+- Or no measures but only FK of different dimensions is a factless fact table
   ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/a33af934-b869-498a-812f-e001a4c2bdef)
 
 
