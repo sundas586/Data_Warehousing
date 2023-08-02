@@ -375,7 +375,24 @@ The values in DWH should reflect same as production data values
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/4c379d60-56aa-4900-90f4-814d41019c23)
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/07d574bf-5d5c-4881-9d18-fff8fbbbdc7d)
 
+# Types of fact tables
 
+## 1_Transactional Fact Table:
+- This type of fact table records individual business transactions or events. It contains detailed information about each occurrence, such as sales transactions, customer orders, or stock trades.
+- A table where we store measures from our transaction.
+
+## 2_Periodic Snapshot Fact Table:
+A periodic snapshot fact table captures data at specific time intervals, typically on a regular basis (e.g., daily, weekly, monthly).
+
+## 3_Accumulating Snapshot Fact Table:
+An accumulating snapshot fact table is designed to track the progress or milestones of a business process over time. It records key events that occur during the process and aggregates data from the beginning to the current state. For example, in a sales pipeline analysis, the accumulating snapshot fact table might record stages like "lead created," "lead qualified," "quote sent," and "deal closed," along with relevant timestamps and metrics for each stage.
+
+## 4_Factless Fact Table:
+A factless fact table contains no measures or quantitative data but instead captures the occurrences of specific events or relationships between dimensions. It is used to represent events with no numerical value but is essential for analysis, like recording when a customer browses a website or when a product is added to a shopping cart. Factless fact tables are particularly useful for tracking business processes and their associations.
+
+- It does record the occurrence of a transaction, but not a figure/number but like eligibility of something (e.g ok this product has been added to car)
+- Or no measures but only FK of different dimensions is factless fact table
+  ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/a33af934-b869-498a-812f-e001a4c2bdef)
 
 
 
