@@ -369,6 +369,16 @@ The values in DWH should reflect same as production data values
 ```diff
 @@ Star vs Snowflakes schema becomes very important when it comes to Hierarchical vs Flat Dimension @@
 ```
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/76dec602-9d61-4e5e-b299-98432a785c37)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/96893d5d-7566-4c93-838d-2d6987955b33)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/ce62a004-cff7-4345-9af1-ea31fadb6182)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/4c379d60-56aa-4900-90f4-814d41019c23)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/07d574bf-5d5c-4881-9d18-fff8fbbbdc7d)
+
+
+
+
+
 
 
 
