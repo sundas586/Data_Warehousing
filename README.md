@@ -376,16 +376,53 @@ The values in DWH should reflect same as production data values
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/07d574bf-5d5c-4881-9d18-fff8fbbbdc7d)
 
 # Types of fact tables
+* Transactional m ak row only on the spot, insert hoti ha
+* spanshot m bhi ak specific period pr insert hoti ha
+* But accumulating m ak row bar bar status k hisab say different columns m value insert ya update krta rehta ha
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/28ad5934-f53e-4ca9-bef3-050ebe956693)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/51ffd8a6-6071-4849-897b-dc890f38bd21)
 
 ## 1_Transactional Fact Table:
 - This type of fact table records individual business transactions or events. It contains detailed information about each occurrence, such as sales transactions, customer orders, or stock trades.
 - A table where we store measures from our transaction.
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/41c6b57d-79f9-4f47-b794-78d8ead125f8)
+
 
 ## 2_Periodic Snapshot Fact Table:
 A periodic snapshot fact table captures data at specific time intervals, typically on a regular basis (e.g., daily, weekly, monthly).
 
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/6762c562-8d01-43cb-ac97-6666c9e11e7f)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/20707a7a-ab50-4cb1-8b4e-a03bd1f9c513)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/2677439b-5e64-4b9f-8f05-138a78c743f6)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/90b5c0a5-ed88-4f22-a84c-f17cd0095f91)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/3c2ad0ec-e395-4d4a-a3c4-3530c72db6b9)
+
 ## 3_Accumulating Snapshot Fact Table:
-An accumulating snapshot fact table is designed to track the progress or milestones of a business process over time. It records key events that occur during the process and aggregates data from the beginning to the current state. For example, in a sales pipeline analysis, the accumulating snapshot fact table might record stages like "lead created," "lead qualified," "quote sent," and "deal closed," along with relevant timestamps and metrics for each stage.
+```diff
+@@ The primary key of an accumulating snapshot fact table will be the combination of all foreign keys coming from all other dimension tables  @@
+```
+- Bhai ye accumulating walay m ye hota ha k jb ap ko koi esay process ki tracking krni hoti ha jis k kai steps hon,
+   - student nay application 10 ko submit ki,
+   - 12 ko application process m gai,
+   - 15 ko review hui,
+   - 16 ko approve hui,
+   - 18 ko sudent nay fees pay krdi,
+   - or 21 ko certificate complete kr bhi liya
+   - to jb esi ko with **time specific status tracking krni hoto accumulation fact use hota ha**
+   - ub q k is m bohat saray time required han to ak hi row m alag alag cheezon k time k column values hoti han jo dim_date say ati han,
+   - SO is ki primary key is the combination, composite kest of all forign keys in the table
+- assume you have a bussiness process, and you want to keep tracking its **status from start to end at each time**. then you use accumulating snapshot fact table.
+- An example is student apply for financial aid, as this process goes from stage to stage for final result  .
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/ab408f26-0e08-449b-b401-4db4d0ca0ea7)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/97bdfb20-356b-4c9a-9db9-9f1ef4a9c3e0)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/8cef2434-2bff-4a29-a2ad-87dd2480c31f)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/6fd3b173-1bf5-4e16-9bf9-3a77b1487d21)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/db2ef8e6-735b-49be-a037-fa4c1c9eea94)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/a78e5250-1227-41a0-919b-85e50df5cba6)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/5626fbd9-1faa-42e6-8dba-e464bb747465)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/bec72316-cb9c-4a28-b2c8-ed45c0c1977a)
+
+
 
 ## 4_Factless Fact Table:
 A factless fact table contains no measures or quantitative data but instead captures the occurrences of specific events or relationships between dimensions. It is used to represent events with no numerical value but is essential for analysis, like recording when a customer browses a website or when a product is added to a shopping cart. Factless fact tables are particularly useful for tracking business processes and their associations.
