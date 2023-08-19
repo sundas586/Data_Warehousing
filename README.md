@@ -378,7 +378,9 @@ The values in DWH should reflect same as production data values
 # Types of fact tables
 * Transactional m ak row only on the spot, insert hoti ha
 * spanshot m bhi ak specific period pr insert hoti ha
-* But accumulating m ak row bar bar status k hisab say different columns m value insert ya update krta rehta ha
+* But accumulating m ak row bar bar status k hisab say different columns m value insert ya update krta rehta ha,
+    - SUPPOSE THERE IS A COLUMN "DAY OF APPLICATION UNDER PROCESS, NOW THE VALUE OF THIS COLUMN WILL BE REGULARLY UPDATED aFTER EACH PASSING DAY, UNTIL A DECISION IS MADE". oNCE A DECISION IS MADE, THIS COLUMN VALUE WILL NO LONGER BE UPDATEDD.
+    - nOW SUPPOSE THERE IS ONE MORE COLUMN, "DAY OF STUDENT IN CLASS", as student can only be in class after approval, so till then this column will have null. but once approved, each passing day the value of this column will keep increasing untill pass the exam.
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/28ad5934-f53e-4ca9-bef3-050ebe956693)
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/51ffd8a6-6071-4849-897b-dc890f38bd21)
 
