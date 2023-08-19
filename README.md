@@ -427,6 +427,10 @@ A periodic snapshot fact table captures data at specific time intervals, typical
 
 
 ## 4_Factless Fact Table:
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/c1a0b137-a850-4805-8129-3e62cffca825)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/13312562-f1ad-4a5d-871d-61511179031f)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/ef5601fd-5408-420e-b322-b743b5415be1)
+
 A factless fact table contains no measures or quantitative data but instead captures the occurrences of specific events or relationships between dimensions. It is used to represent events with no numerical value but is essential for analysis, like recording when a customer browses a website or when a product is added to a shopping cart. Factless fact tables are particularly useful for tracking business processes and their associations.
 
 - It does record the occurrence of a transaction, but not a figure/number but like eligibility of something (e.g ok this product has been added to car)
