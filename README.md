@@ -459,7 +459,23 @@ put paper images here
 # Star Schema vs Snowflake Schema and the 7 Critical Differences
 
 [Just go through this website read highlights is enough](https://www.keboola.com/blog/star-schema-vs-snowflake-schema)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/36d105cd-896c-453a-822e-38b5ba2ac442)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/db808f6e-a563-42a9-b4c8-e6c0529b66fc)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/3b1182dc-a9e1-43c3-8c5e-e8b5315e723d)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/6e5b3637-023b-4e40-9cd6-8f439e9274c1)
 
+# SCD-type 3 :
+
+- Keep the history by adding a column that holds old values
+- two columns in a tables of SCD-type 3 :
+   - Current Address, Previous Address
+  
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/3a255843-d0c8-4aef-bcbf-a7c5f72eb0b7)
+
+# hOT MUST KNOW TOPIC :
+
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/5deaa96c-3dbd-4094-a446-231bb68a3d57)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/93309fa9-683b-434e-acc9-8c152bc75ad3)
 
     
 
