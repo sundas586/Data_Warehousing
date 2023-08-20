@@ -444,9 +444,24 @@ A factless fact table contains no measures or quantitative data but instead capt
 @@ In a factless fact table, the primary key is often a combination of foreign keys from associated dimension tables. @@
 ```
 
+# Dimensional Modeling for star schema VS snowflakes schema
+
+put paper images here
+
+# Fact tables Modeling for star schema VS snowflakes schema
+
+- If there are 3 dimensional tables connected in a hierarchy using PK-FK relation between them, use the last most child dimension table primary key as FK in the central fact table.
+- And to connect the fact table data with higher dimensional nodes, use SQL.
+
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/d653128e-b2ca-406a-9320-e1d23e01ebe8)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/7a3abc0a-7050-48e2-af60-918ec40e04c6)
+
+# Star Schema vs Snowflake Schema and the 7 Critical Differences
+
+[Just go through this website read highlights is enough](https://www.keboola.com/blog/star-schema-vs-snowflake-schema)
 
 
-
+    
 
 
 
