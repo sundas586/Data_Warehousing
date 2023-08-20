@@ -477,6 +477,13 @@ put paper images here
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/5deaa96c-3dbd-4094-a446-231bb68a3d57)
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/93309fa9-683b-434e-acc9-8c152bc75ad3)
 
+# -------------------------
+
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/215a02a8-c181-4b05-9812-d676e73b0e68)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/acead353-6213-414d-9d2b-f00c86f43469)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/36a46f94-c4c2-4767-95a7-c9cb47551f7f)
+
+
     
 
 
