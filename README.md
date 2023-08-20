@@ -376,13 +376,13 @@ The values in DWH should reflect same as production data values
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/07d574bf-5d5c-4881-9d18-fff8fbbbdc7d)
 
 # Types of fact tables
-* Transactional m ak row only on the spot, insert hoti ha
-* spanshot m bhi ak specific period pr insert hoti ha
-* But accumulating m ak row bar bar status k hisab say different columns m value insert ya update krta rehta ha,
-    - SUPPOSE THERE IS A COLUMN "DAY OF APPLICATION UNDER PROCESS, NOW THE VALUE OF THIS COLUMN WILL BE REGULARLY UPDATED aFTER EACH PASSING DAY, UNTIL A DECISION IS MADE". oNCE A DECISION IS MADE, THIS COLUMN VALUE WILL NO LONGER BE UPDATEDD.
-    - nOW SUPPOSE THERE IS ONE MORE COLUMN, "DAY OF STUDENT IN CLASS", as student can only be in class after approval, so till then this column will have null. but once approved, each passing day the value of this column will keep increasing untill pass the exam.
-![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/28ad5934-f53e-4ca9-bef3-050ebe956693)
-![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/51ffd8a6-6071-4849-897b-dc890f38bd21)
+1_ **Transactional** m ak row only on the spot, insert hoti ha <br/> <br/>
+2_ **periodic spanshot** m bhi ak specific period pr insert hoti ha <br/> <br/>
+3_ But **accumulating** m ak row bar bar status k hisab say different columns m value insert ya update krta rehta ha,<br/> <br/>
+    - SUPPOSE THERE IS A COLUMN "DAY OF APPLICATION UNDER PROCESS, NOW THE VALUE OF THIS COLUMN WILL BE REGULARLY UPDATED aFTER EACH PASSING DAY, UNTIL A DECISION IS MADE". oNCE A DECISION IS MADE, THIS COLUMN VALUE WILL NO LONGER BE UPDATEDD.<br/> <br/>
+    - NOW SUPPOSE THERE IS ONE MORE COLUMN, "DAY OF STUDENT IN CLASS", as a student can only be in class after approval, so till then this column will have null. but once approved, each passing day the value of this column will keep increasing untill pass the exam.<br/> <br/>
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/51ffd8a6-6071-4849-897b-dc890f38bd21) <br/> <br/>
+4_ **Factless fact** table, only foreign keys (of any event occurs that has to be tracked), no measurement/quantitative column in the table
 
 ## 1_Transactional Fact Table:
 - This type of fact table records individual business transactions or events. It contains detailed information about each occurrence, such as sales transactions, customer orders, or stock trades.
