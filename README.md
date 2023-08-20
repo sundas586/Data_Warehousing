@@ -13,7 +13,7 @@ The data warehouse is a system which is used for analysis and reporting of data 
 ![c](https://user-images.githubusercontent.com/33677647/204094022-f30a6a5c-56c4-4841-80eb-eef04900c7f6.JPG)
 
 
-Any good company plans a idea (lets see from last years Eid sale, which kind of item was sold out the most ? )
+Any good company plans a idea (lets see from last years Eid sale, which kind of item was sold. out the most ? )
 - So they plan idea
 - gather data
 - analyze it
@@ -437,7 +437,12 @@ A factless fact table contains no measures or quantitative data but instead capt
 - Or no measures but only FK of different dimensions is a factless fact table
   ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/a33af934-b869-498a-812f-e001a4c2bdef)
 
+### Primary key of Factless fact table :
 
+```diff
+@@ In a traditional fact table, the primary key is typically a surrogate key, not a combination of foreign keys. @@
+@@ In a factless fact table, the primary key is often a combination of foreign keys from associated dimension tables. @@
+```
 
 
 
