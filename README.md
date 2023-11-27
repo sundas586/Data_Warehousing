@@ -114,6 +114,13 @@ so meta data storess the location of each data file and the location of where it
 
 ![1](https://user-images.githubusercontent.com/33677647/208683950-3eade0fa-99fd-470f-bb9d-d7770e5cf252.png)
 
+#  What is the level of granularity of a Fact Table?
+
+The granularity is the lowest level of information stored in the fact table. The depth of data level is known as granularity. 
+A fact table is usually designed at a low level of granularity. This means we must find the lowest amount of information stored in a fact table. For example, employee performance is a very high level of granularity. In contrast, employee performance daily and employee performance weekly can be considered low levels of granularity because they are much more frequently recorded data. The granularity is the lowest level of information stored in the fact table; the depth of the data level is known as granularity in the date dimension.
+
+The level could be a year, month, quarter, period, week, and day of granularity, so the day is the lowest, and the year is the highest. The process consists of the following two steps determining the dimensions to be included and the location to find the hierarchy of each dimension of that information. The above factors of determination will be resent as per the requirements.
+
 ## Data Migration
 is a process of moving application data from old systems to new ones. It typically requires transferring data between Storage types or formats. Automated migration frees up human resources from tedious, error-prone tasks.
 
