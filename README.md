@@ -1,5 +1,7 @@
 # Data_Warehousing
 
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/68b344f7-df5f-47a5-8961-752cf1f93c12)
+
 ## fact table vs Dimention table :
 
 - The fact table is where other than id's , you store factual data/ numeric data, by factual data it means that the values that keeps changing, like how many sales today for this product, or how many transactions in a day at this ATM, so this type of data is transactional and the values keeps changing each day for each BK.
