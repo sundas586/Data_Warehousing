@@ -1,6 +1,27 @@
 # Data_Warehousing
 
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/68b344f7-df5f-47a5-8961-752cf1f93c12)
+# Lowest gain of risk module :
+
+- Ans : Inherent Risk, Current Risk, Residual Risk
+
+# When to use which Fact Table ??? 
+
+## Transactional Fact table : 
+- For a transaction that occurs only once and completed, there will be no more modifications in it in future, Like a customer went to store & bought a TV.
+In this case when no modifications are expected, Use a transactional Fact table 
+
+## Accumulating Snapshot fact table
+Just like jira tickets:
+- development Started (OK fill dev started date column value)
+- in progress (ok fill in-progress date column value)
+- Complete in branch (OK fill complete in branch date column value)
+- Ticket Done (OK fill done date  column value)
+
+## Periodic Snapshot fact table :
+For Risk module because its values keeps changing and never ends for Inherent Risk, Residual Risk, Current Risk.
+There is no End for these value, they keep changing, so we can use PSFT for this purpose
+
 
 ## fact table vs Dimention table :
 
