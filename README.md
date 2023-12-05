@@ -9,7 +9,7 @@
 
 ## Transactional Fact table : 
 - For a transaction that occurs only once and completed, there will be no more modifications in it in future, Like a customer went to store & bought a TV.
-In this case when no modifications are expected, Use a transactional Fact table 
+- In this case when no modifications are expected, Use a transactional Fact table 
 
 ## Accumulating Snapshot fact table
 Just like jira tickets:
@@ -19,8 +19,14 @@ Just like jira tickets:
 - Ticket Done (OK fill done date  column value)
 
 ## Periodic Snapshot fact table :
-For Risk module because its values keeps changing and never ends for Inherent Risk, Residual Risk, Current Risk.
-There is no End for these value, they keep changing, so we can use PSFT for this purpose
+- For Risk module because its values keeps changing and never ends for Inherent Risk, Residual Risk, Current Risk.
+- There is no End for these value, they keep changing, so we can use PSFT for this purpose, 
+**and along with the foreign keys, also put the values of IR, RR, and CR in the fact table instead of putting them in  the dimension, as numeric values**
+
+## Factless fact table :
+
+- only the foregin keys in table and no numeric values in fact table
+
 
 
 ## fact table vs Dimention table :
