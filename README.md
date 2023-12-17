@@ -27,6 +27,16 @@ Just like jira tickets:
 
 - only the foregin keys in table and no numeric values in fact table
 
+## When to choose star vs snowflakes OR When to normalize & when not normalize
+
+- When we can offered the cost of data storage but we want to avoid slow queries, we need less joins in query for fast retrival, thats when we denormalize/ star flakes
+- When we want to avoid data duplication (use less memory space) we use normalization/snowflakes (keeping in mind that dims should have parent child relation)
+
+## ELT vs ETL
+
+- ELT :
+1_ When we can not hit the source data again & again due to privacy restrictions, we bring all data once in DWH the perform T later
+2_ When we have enough memory space any we want to keep are staging persistent for backup
 
 
 ## fact table vs Dimention table :
