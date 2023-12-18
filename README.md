@@ -122,6 +122,18 @@ But the real DWH keeps the data of all these DM(small DWH).<br/>
 ![88](https://user-images.githubusercontent.com/33677647/204112506-638e40f7-dd99-48f8-83c5-821ae5ef72b4.png)
 ![4](https://user-images.githubusercontent.com/33677647/204112512-e08fe9f2-b108-4f8e-96b5-6387030a297c.JPG)
 
+# Schema on read VS schema on write
+
+- When we create the schema in the database before loading the data to the table is called schema on read
+   - it helps to keep the data consistent
+- When we create the schema while loading the data into the database is called schema on write
+   - it causes scalibility in of dataset as more data will be inserted, since it will not need any preprocessing & validation before inserting the data.
+ ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/1bff1396-34d8-46a5-bf90-080b06f94070)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/53cdefff-f26e-4e7c-af98-98e3fddfc0da)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/49f89040-425e-4790-ae7e-eee7f0fd7dbe)
+
+
+
 ## GRANULARITY & CARDINALITY
 
 It tells the level of how detailed your data is.
