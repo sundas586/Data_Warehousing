@@ -32,6 +32,13 @@ Just like jira tickets:
 - When we can offered the cost of data storage but we want to avoid slow queries, we need less joins in query for fast retrival, thats when we denormalize/ star flakes
 - When we want to avoid data duplication (use less memory space) we use normalization/snowflakes (keeping in mind that dims should have parent child relation)
 
+## CDC
+
+- SO basically CDC is to capture the change in source data so that we bring only data for which any value has changed in source database,
+- means the incremental thing we do in data warehouse is actually CDC
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/620b30b1-7438-4ab5-9f1e-600dde9e4af5)
+
+
 ## ELT vs ETL
 
 - ELT (why ELT is replacing ETL):
