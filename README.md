@@ -1,7 +1,25 @@
-# What is meta data in DWH
+# What is metadata in DWH
 
-- A document that keeps all info about where the data is comming from, What transformation are performed on it, column names, dtypes, detination and etc.
-- To make the BI-team understand the process easily
+- A document that keeps all info about where the data is coming from, What transformations are performed on it, column names, types, destination, etc.
+- To make the BI team understand the process easily
+
+# Conceptual model in DWH
+
+only the main subject's ERP (No columns, no PKs)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/601c7424-69ee-42a2-9745-04c83fbf2a51)
+
+# Logical Model
+- Column names & their relation is defined,
+- is Normalized
+- Many to many relation are also resolved here
+
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/528ad141-31b2-4e6c-9351-56146f93b527)
+
+# Physical Model
+
+- Here FK are combined :
+  ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/9205d4ee-0e13-4837-b2d8-10014730d5c9)
+
 # Data_Warehousing
 
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/68b344f7-df5f-47a5-8961-752cf1f93c12)
