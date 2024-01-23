@@ -1,3 +1,7 @@
+# What is meta data in DWH
+
+- A document that keeps all info about where the data is comming from, What transformation are performed on it, column names, dtypes, detination and etc.
+- To make the BI-team understand the process easily
 # Data_Warehousing
 
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/68b344f7-df5f-47a5-8961-752cf1f93c12)
