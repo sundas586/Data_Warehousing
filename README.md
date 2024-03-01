@@ -1,3 +1,20 @@
+Key process indicator (point of sale to be inserted in a Fact table) in DWH
+
+
+a 'product' bought in a transaction is a grain
+IR, CR, RR are the grains of whole Risk module
+
+
+
+a dimen should change slowly that is why we call slowly chaznging dimension, if a diemnsion is changing rapidly means we put those frequent columns wrongly here and these column should be in Fact 
+(e.g IR, CR, RR values columns are wrngly put in dim they should be fact)
+
+
+periodic snapshot:
+
+take the data value from transactional DB at the time of ETL running just take a picture of it, no matter how many time it while ETL not running, we just pick what is the value right now (snap)
+
+
 # What is metadata in DWH
 
 - A document that keeps all info about where the data is coming from, What transformations are performed on it, column names, types, destination, etc.
