@@ -81,11 +81,11 @@ Just like jira tickets:
 ## ELT vs ETL
 
 - ELT (why ELT is replacing ETL):
-0_ ELT is cost efficient when using Cloud solutions, you just bring the data once and futher transformation can be performed using any tool.
-1_ When we can not hit the source data again & again due to privacy restrictions, we bring all data once in DWH the perform T later
-2_ When we have enough memory space any we want to keep are staging persistent for backup (as we might loose the data while transformation )
+0_ ELT is cost efficient when using Cloud solutions, you just bring the data once and futher transformation can be performed using any tool.<br/>
+1_ When we can not hit the source data again & again due to privacy restrictions, we bring all data once in DWH the perform T later<br/>
+2_ When we have enough memory space any we want to keep are staging persistent for backup (as we might loose the data while transformation )<br/>
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/0ec9957e-542d-4890-aca8-7f6728f543fd)
-
+3_ use ELT when we need to provide raw data into a datalake for data scientist and then data scientist can transform it a/c their requirements
 
 ## fact table vs Dimention table :
 
