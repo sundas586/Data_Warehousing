@@ -14,6 +14,7 @@ periodic snapshot:
 
 take the data value from transactional DB at the time of ETL running just take a picture of it, no matter how many time it while ETL not running, we just pick what is the value right now (snap)
 
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/a0c11ed9-703e-4a27-a4d4-b820b62a8448)
 
 # What is metadata in DWH
 
