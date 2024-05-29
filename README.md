@@ -1,3 +1,5 @@
+[interview prep questions](https://career.guru99.com/top-50-datawarehousing-questions-answers/)
+
 Key process indicator (point of sale to be inserted in a Fact table) in DWH
 
 
