@@ -1,5 +1,14 @@
 [interview prep questions](https://career.guru99.com/top-50-datawarehousing-questions-answers/)
 
+## dim_date for multiple date columns in a fact table :
+
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/50523584-1b51-498c-b63d-86d7687baac0)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/681bc5d9-f5bb-4d3e-beff-ba53142ef06f)
+![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/df9dd945-2ee2-45ae-92a1-ba24caab30c0)
+
+
+
+
 Key process indicator (point of sale to be inserted in a Fact table) in DWH
 
 
