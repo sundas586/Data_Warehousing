@@ -602,6 +602,19 @@ put paper images here
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/36a46f94-c4c2-4767-95a7-c9cb47551f7f)
 
 
+# Cube - Multidimensional data
+
+- independent dimensions
+![image](https://github.com/user-attachments/assets/1a77a998-7517-478c-ac2a-22102ee83618)
+
+- 2D
+![image](https://github.com/user-attachments/assets/84a7dd47-8766-4de1-9cdc-68645f3bf943)
+
+- independent dimensional when combined provides us more powerful analysis
+![image](https://github.com/user-attachments/assets/70996e24-c627-4758-bc51-2c4d233c28d7)
+
+
+
     
 
 
