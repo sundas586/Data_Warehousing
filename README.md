@@ -604,25 +604,25 @@ put paper images here
 
 # Cube - Multidimensional data
 
-- independent dimensions
-![image](https://github.com/user-attachments/assets/1a77a998-7517-478c-ac2a-22102ee83618)
-![image](https://github.com/user-attachments/assets/6d49c345-b48b-4cfa-9b31-e2482fffd7f0)
+- independent dimensions <br/>
+![image](https://github.com/user-attachments/assets/1a77a998-7517-478c-ac2a-22102ee83618) <br/>
+![image](https://github.com/user-attachments/assets/6d49c345-b48b-4cfa-9b31-e2482fffd7f0) <br/>
 
 
-- 2D
-![image](https://github.com/user-attachments/assets/84a7dd47-8766-4de1-9cdc-68645f3bf943)
+- 2D <br/>
+![image](https://github.com/user-attachments/assets/84a7dd47-8766-4de1-9cdc-68645f3bf943) <br/>
 
-- independent dimensional when combined provides us more powerful analysis
-![image](https://github.com/user-attachments/assets/70996e24-c627-4758-bc51-2c4d233c28d7)
-![image](https://github.com/user-attachments/assets/04df57cb-dbfc-4d75-acc6-f3c1c7974f5b)
+- independent dimensional when combined provides us more powerful analysis <br/>
+![image](https://github.com/user-attachments/assets/70996e24-c627-4758-bc51-2c4d233c28d7) <br/>
+![image](https://github.com/user-attachments/assets/04df57cb-dbfc-4d75-acc6-f3c1c7974f5b) <br/>
 
 
-## SLice & Dice in Cube
+## SLice & Dice in Cube <br/>
 
-- **Slice** is used for only looking at product X in the products table.
-- **Dice** is used for 'product X' from table product with sales of different months on months table and regions from region table
-![image](https://github.com/user-attachments/assets/0265132a-ac92-4f5a-a1e2-ea96748f4547)
-![image](https://github.com/user-attachments/assets/112b85c3-395c-4039-a5b8-c7606d5c0bec)
+- **Slice** is used for only looking at product X in the products table. <br/>
+- **Dice** is used for 'product X' from table product with sales of different months on months table and regions from the region table <br/>
+![image](https://github.com/user-attachments/assets/0265132a-ac92-4f5a-a1e2-ea96748f4547) <br/>
+![image](https://github.com/user-attachments/assets/112b85c3-395c-4039-a5b8-c7606d5c0bec) <br/>
 
 ##
 
