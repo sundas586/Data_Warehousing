@@ -6,20 +6,13 @@
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/681bc5d9-f5bb-4d3e-beff-ba53142ef06f)
 ![image](https://github.com/sundas586/Data_Warehousing/assets/33677647/df9dd945-2ee2-45ae-92a1-ba24caab30c0)
 
-
-
-
 Key process indicator (point of sale to be inserted in a Fact table) in DWH
-
 
 a 'product' bought in a transaction is a grain
 IR, CR, RR are the grains of whole Risk module
 
-
-
 a dimen should change slowly that is why we call slowly chaznging dimension, if a diemnsion is changing rapidly means we put those frequent columns wrongly here and these column should be in Fact 
 (e.g IR, CR, RR values columns are wrngly put in dim they should be fact)
-
 
 periodic snapshot:
 
@@ -136,6 +129,12 @@ Any good company plans a idea (lets see from last years Eid sale, which kind of 
 ![1](https://user-images.githubusercontent.com/33677647/204098919-abfaeaed-1c12-4ee7-82b0-a79ccd702434.JPG)
 
 End User --> BI analysts <br/>
+
+# B/W Additive facts, semi-additive, non-additive facts
+
+- when you can use aggregation on any column in the fact table and it will give fruitful insight (fully aggregated)
+- when you can perform aggregation on some column but not with respect to time, like SUM(balance), this is wrong because each month's balance will change, why would we sum it (semi-aggregated)
+- when aggregation will give no useful insight (non-aggregated)
 
 ## ETL
 
