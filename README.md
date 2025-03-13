@@ -623,7 +623,9 @@ put paper images here
 ![image](https://github.com/user-attachments/assets/0265132a-ac92-4f5a-a1e2-ea96748f4547) <br/>
 ![image](https://github.com/user-attachments/assets/112b85c3-395c-4039-a5b8-c7606d5c0bec) <br/>
 
-##
+## M-to-M
+
+- Hierarchical, fixed-depth many-to-one (M:1) relationships between attributes are typically denormalized or collapsed into a flattened dimension table.
 
 
     
